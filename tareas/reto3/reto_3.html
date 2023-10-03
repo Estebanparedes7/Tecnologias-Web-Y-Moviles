@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de propina</title>
+</head>
+<body>
+    <h1>Calculadora de Propinas</h1>
+    <form>
+        <label for="total_boleta">Total de la boleta: </label>
+        <input type="number" id="total_boleta">
+        <label for="porcentaje_propina">Porcentaje de la propina: </label>
+        <select name="porcentaje_propina" id="porcentaje_propina">
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+        </select>
+        <input type="button" name="calcular_propina" id="calcular_propina" value="Calcular" onclick="calcularPropina()">
+        <input type="button" name="limpiar" id="limpiar" value="Limpiar" onclick="limpiarCampos()">
+    </form>
+
+    <label id="mostrar_propina">Propina: </label>
+    <br>
+    <label id="mostrar_total_boleta">Total a pagar: </label>
+
+    <script src="reto3.js"></script>
+</body>
+</html>
