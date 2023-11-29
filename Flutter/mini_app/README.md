@@ -1,16 +1,10 @@
-# mini_app
+# mini app flutter
 
-A new Flutter project.
+Esta es una aplicación Flutter simple que muestra un botón. Al presionar el botón, se muestra un cuadro de diálogo con el mensaje "¡Hola Mundo!".
 
-## Getting Started
+## Cómo Ejecutar la Aplicación
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Asegúrate de tener Flutter y Dart instalados en tu sistema.
+2. Clona este repositorio o descarga el código fuente.
+3. Abre una terminal en la carpeta del proyecto.
+4. Ejecuta el comando `flutter run` para iniciar la aplicación
