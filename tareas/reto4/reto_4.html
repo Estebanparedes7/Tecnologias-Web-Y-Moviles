@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <div>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre">
+    </div>
+    <div>
+        <label for="peso">Peso (kg): </label>
+        <input type="number" id="peso">
+    </div>
+    <div>
+        <label for="altura">Altura (m): </label>
+        <input type="number" step="0.01" id="altura">
+    </div>
+    <div>
+        <label for="edad">Edad: </label>
+        <input type="number" id="edad">
+    </div>
+    <div>
+        <label for="genero">Género: </label>
+        <select id="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+    </div>
+    <div>
+        <label for="actividad">Nivel de actividad física: </label>
+        <select id="actividad">
+            <option value="sedentario">Sedentario</option>
+            <option value="moderado">Moderado</option>
+            <option value="activo">Activo</option>
+        </select>
+    </div>
+    <button onclick="calcularIMC()">Calcular IMC</button>
+    <div id="resultado"></div>
+
+    <script src="reto4.js"></script>
+</body>
+</html>
