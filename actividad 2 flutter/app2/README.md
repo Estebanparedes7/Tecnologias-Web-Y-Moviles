@@ -1,16 +1,15 @@
-# app2
+# Actividad 2 Flutter
 
-A new Flutter project.
+Esta es una aplicación Flutter que muestra información sobre las sedes de la Universidad de Los Lagos y proporciona un botón para obtener más información sobre la universidad.
 
-## Getting Started
+## Cómo funciona
 
-This project is a starting point for a Flutter application.
+La aplicación consta de tarjetas que representan diferentes sedes de la Universidad de Los Lagos, cada una con su propia imagen, título y descripción. Además, hay un botón "Más información" que te lleva a la página web de la universidad.
 
-A few resources to get you started if this is your first Flutter project:
+## Cómo ejecutar la aplicación
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Para ejecutar esta aplicación, sigue estos pasos:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Instalación de Flutter:** Asegúrate de tener Flutter instalado en tu sistema. .
+
+2. **Clonar el repositorio:** 
