@@ -79,7 +79,7 @@ class MiWidget extends StatelessWidget {
       ),
     );
   }
-
+//funcion para abrir url
 void _irAUlagos(BuildContext context) async {
   const url = 'http://www.ulagos.cl'; // URL de la página de Ulagos
   try {
